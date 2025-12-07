@@ -59,7 +59,7 @@ p {
 }
 
 .used {
-     padding: 3rem;
+     padding: 5em 4em;
 }
 
 @media screen and (max-width: 500px) {
