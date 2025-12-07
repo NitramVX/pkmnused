@@ -63,19 +63,19 @@ p {
     div#container {
         text-align: center;
         margin-top: 15%;
-        margin-bottom: 1.5rem;
+        margin-bottom: 2rem;
     }
    
     img {
-        width: 100%;
+        width: 95%;
     }
 
     img#box3 {
-        width: 50%;
+        width: 60%;
     }
 
     p {
-        font-size: 1.5em;
+        font-size: 3em;
     }
 
 }
