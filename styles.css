@@ -63,10 +63,11 @@ p {
     div#container {
         text-align: center;
         margin-top: 15%;
+        margin-bottom: 1.5rem;
     }
    
     img {
-        width: 80%;
+        width: 100%;
     }
 
     img#box3 {
