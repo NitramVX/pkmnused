@@ -18,11 +18,11 @@
 <body>
     <div id="container">
         <div class="line used">
-            <p class=" " id="supp">SUPPORT USED</p>
+            <p class="used" id="supp">SUPPORT USED</p>
             <img id="box1" src="./images/box.png" draggable="false">
         </div>
         <div class="line used">
-            <p class="" id="energy">ENERGY USED</p>
+            <p class="used" id="energy">ENERGY USED</p>
             <img id="box2" src="./images/box.png" draggable="false">
         </div>
         <div class="line">
@@ -32,7 +32,7 @@
     </div>
 
 <script>
-  $("div.used").click(function() {
+  $("p.used").click(function() {
   if ($(this).css("text-decoration").includes("line-through")) {
     $(this).css({
       "text-decoration": "none",
@@ -49,7 +49,7 @@
 });
 
     $("p#reset").click(function() {
-        $("div.used").css("text-decoration", "none");
+        $("p.used").css("text-decoration", "none");
     });
 </script>
 
